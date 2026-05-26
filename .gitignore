@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Generated output
+dist/
+
+# Pack/publish artifacts
+*.tgz
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local machine files
+.DS_Store
+
+# Registry/auth config
+.npmrc

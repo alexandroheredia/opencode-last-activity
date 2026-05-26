@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@alexandroheredia/opencode-last-activity",
+  "version": "0.1.0",
+  "description": "OpenCode TUI plugin that shows relative last-activity status for the current session.",
+  "author": "Alexandro",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandroheredia/opencode-last-activity.git"
+  },
+  "homepage": "https://github.com/alexandroheredia/opencode-last-activity#readme",
+  "bugs": {
+    "url": "https://github.com/alexandroheredia/opencode-last-activity/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./tui": {
+      "import": "./src/tui.tsx",
+      "config": {
+        "compact": false,
+        "activeWindowMs": 5000,
+        "stalledWindowMs": 60000
+      }
+    }
+  },
+  "engines": {
+    "node": ">=20",
+    "opencode": ">=1.15.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tui",
+    "activity",
+    "status"
+  ],
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.15.10",
+    "@opentui/solid": "^0.2.15",
+    "solid-js": "^1.9.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.8.3"
+  }
+}
