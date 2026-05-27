@@ -76,31 +76,4 @@ Compact mode:
 
 ## Contributing
 
-<<<<<<< Updated upstream
-This section is for maintainers and contributors.
-
-```sh
-npm install
-npm run typecheck
-```
-
-For local testing before publishing, point your `~/.config/opencode/tui.json` at your local checkout and replace the placeholder path below with the real absolute path on your machine:
-
-```json
-{
-  "$schema": "https://opencode.ai/tui.json",
-  "plugin": [
-    [
-      "/absolute/path/to/opencode-last-activity/src/tui.tsx",
-      {
-        "compact": false
-      }
-    ]
-  ]
-}
-```
-
-Quit and restart OpenCode after changing plugin config.
-=======
 Development setup and local testing notes live in [`CONTRIBUTING.md`](./CONTRIBUTING.md).
->>>>>>> Stashed changes
