@@ -74,8 +74,9 @@ Compact mode:
 - `retry 12s ago`
 - `stalled 3m ago`
 
-## Development
+## Contributing
 
+<<<<<<< Updated upstream
 This section is for maintainers and contributors.
 
 ```sh
@@ -100,3 +101,6 @@ For local testing before publishing, point your `~/.config/opencode/tui.json` at
 ```
 
 Quit and restart OpenCode after changing plugin config.
+=======
+Development setup and local testing notes live in [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+>>>>>>> Stashed changes
