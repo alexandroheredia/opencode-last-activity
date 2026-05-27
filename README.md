@@ -2,6 +2,10 @@
 
 OpenCode TUI plugin that shows a relative last-activity indicator in `session_prompt_right` so you can tell whether the current session is active, waiting, retrying, or possibly stalled.
 
+## Demo
+
+https://github.com/user-attachments/assets/8dccc64a-ed73-4582-b981-beead5537dc5
+
 ## Features
 
 - shows `active now` while work is happening
