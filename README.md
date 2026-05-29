@@ -46,11 +46,11 @@ If you prefer to edit `tui.json` directly:
 
 ## Options
 
-| Option | Type | Default | Description |
-| --- | --- | --- | --- |
-| `compact` | `boolean` | `false` | Uses shorter labels such as `active`, `2m ago`, and `stalled 2m ago`. |
-| `activeWindowMs` | `number` | `5000` | Age threshold that still counts as active. |
-| `stalledWindowMs` | `number` | `60000` | Age threshold for switching a busy session to stalled. |
+| Option            | Type      | Default | Description                                                           |
+| ----------------- | --------- | ------- | --------------------------------------------------------------------- |
+| `compact`         | `boolean` | `false` | Uses shorter labels such as `active`, `2m ago`, and `stalled 2m ago`. |
+| `activeWindowMs`  | `number`  | `5000`  | Age threshold that still counts as active.                            |
+| `stalledWindowMs` | `number`  | `60000` | Age threshold for switching a busy session to stalled.                |
 
 If `stalledWindowMs` is set lower than `activeWindowMs`, the plugin automatically pushes it above the active window so labels stay sane.
 

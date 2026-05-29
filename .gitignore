@@ -18,3 +18,4 @@ pnpm-debug.log*
 
 # Registry/auth config
 .npmrc
+/docs/temp
